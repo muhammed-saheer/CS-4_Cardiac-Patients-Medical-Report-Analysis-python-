@@ -95,6 +95,19 @@ chol_risk = df[df['target'] == 1]['chol_risk'].value_counts()
 **🧠 Insight**:  
 Even though **high cholesterol is a risk**, most at-risk patients still had cholesterol in the **normal range**.
 
+## 📌 Summary
+
+This heart attack risk analysis revealed key factors associated with cardiovascular risk, including age group, gender, chest pain types, thalassemia defects, and cholesterol levels. While some expected factors like fixed thalassemia defects and asymptomatic chest pain showed strong associations with heart attack risk, others like high fasting blood sugar and cholesterol were not dominant indicators in this dataset.
+
+The study demonstrates that:
+
+- Risk increases notably with age, especially between 41–60 years
+- Men are more prone to heart attacks than women
+- Asymptomatic symptoms and abnormal thalassemia are critical warning signs
+- Multiple risk factors must be considered holistically, not in isolation
+
+This project showcases how exploratory data analysis (EDA) can uncover actionable medical insights and help prioritize early screening, diagnosis, and prevention strategies. With further work, this cleaned dataset could also be used to train machine learning models for predictive analysis.
+
 ---
 
 ## 🧰 Tools Used
